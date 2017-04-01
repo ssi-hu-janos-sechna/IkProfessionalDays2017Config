@@ -9,3 +9,6 @@ spring:
   boot:
     admin:
       url: http://springBootAdmin:8081
+health:
+  config:
+    enabled: false
