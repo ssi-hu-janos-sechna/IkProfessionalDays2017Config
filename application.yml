@@ -3,6 +3,7 @@ eureka:
     serviceUrl:
       defaultZone: http://eureka:8761/eureka/
 management:
+  context-path: /manage
   security:
     enabled: false
 spring:
