@@ -8,4 +8,4 @@ management:
 spring:
   boot:
     admin:
-      url: http://springbootadmin:8081
+      url: http://springBootAdmin:8081
