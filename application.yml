@@ -5,3 +5,7 @@ eureka:
 management:
   security:
     enabled: false
+spring:
+  boot:
+    admin:
+      url: http://springbootadmin:8081
