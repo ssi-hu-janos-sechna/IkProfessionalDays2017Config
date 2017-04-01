@@ -1,2 +1,4 @@
 jwt:
   secretKey: secretkey
+server:
+  port: ${PORT:${SERVER_PORT:0}}
