@@ -1,6 +1,7 @@
 spring:
   rabbitmq:
-    addresses: http://rabbitmq:5672
+    addresses:
+      defaultZone: http://rabbitmq:5672
   boot:
     admin:
       url: http://springBootAdmin:8081
