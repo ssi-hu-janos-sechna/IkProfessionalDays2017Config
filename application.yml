@@ -1,6 +1,6 @@
 spring:
   rabbitmq:
-    host:  http://rabbitmq:5672
+    host:  http://rabbitmq
   boot:
     admin:
       url: http://springBootAdmin:8081
