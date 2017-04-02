@@ -4,7 +4,9 @@ spring:
   boot:
     admin:
       url: http://springBootAdmin:8081
-      
+  sleuth:
+    sampler:
+      percentage: 1.0
 management:
   context-path: /manage
   security:
